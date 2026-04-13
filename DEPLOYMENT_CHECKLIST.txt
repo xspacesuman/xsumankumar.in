@@ -1,0 +1,136 @@
+🚀 PORTFOLIO DEPLOYMENT CHECKLIST
+=====================================
+
+PRE-DEPLOYMENT
+□ Review portfolio in browser (open index.html)
+□ Test all navigation links
+□ Verify LinkedIn link: linkedin.com/in/xsumankumar
+□ Test email link: xsumankumar.in@gmail.com
+□ Check phone number: +91-7406602011
+□ Test resume download button
+□ Review all content for typos
+□ Verify Spot Award dates (Q4 2025, Q1 2026)
+□ Check mobile responsiveness
+□ Test back-to-top button
+
+CONTENT VERIFICATION
+□ Professional summary is accurate
+□ All job titles and dates are correct
+□ Project descriptions are current
+□ Awards section is up-to-date
+□ Skills section reflects current expertise
+□ Contact information is correct
+
+PDF GENERATION
+□ Run: ./convert_to_pdf.sh
+□ Verify Resume PDF generated
+□ Verify Cover Letter PDF generated
+□ Open PDFs to check formatting
+□ Ensure no emoji encoding issues
+
+GITHUB SETUP
+□ Create GitHub account (if needed)
+□ Create new repository named "portfolio"
+□ Set repository to Public
+□ Do NOT initialize with README
+
+DEPLOYMENT STEPS
+□ Make deploy script executable: chmod +x deploy.sh
+□ Run deployment: ./deploy.sh "Initial launch"
+□ Enter GitHub username when prompted
+□ Enter repository name: portfolio
+□ Confirm deployment when asked
+□ Wait for successful push message
+
+ENABLE GITHUB PAGES
+□ Go to repository on GitHub
+□ Click Settings tab
+□ Click Pages in left sidebar
+□ Under Source, select branch: main
+□ Under Folder, select: / (root)
+□ Click Save
+□ Wait 2-5 minutes for deployment
+□ Note your URL: https://USERNAME.github.io/portfolio/
+
+POST-DEPLOYMENT TESTING
+□ Visit your live portfolio URL
+□ Test all sections load correctly
+□ Click through all navigation links
+□ Verify smooth scrolling works
+□ Test on mobile device
+□ Test resume download
+□ Test LinkedIn link opens correctly
+□ Test email link works
+□ Check scroll progress bar
+□ Verify back-to-top button appears
+
+SHARING YOUR PORTFOLIO
+□ Update LinkedIn profile with portfolio URL
+  - Add to Contact Info section
+  - Add to Featured section (optional)
+□ Add to email signature
+□ Update resume with portfolio URL
+□ Share with professional network
+□ Add to GitHub profile README
+
+OPTIONAL ENHANCEMENTS
+□ Set up Google Analytics
+□ Purchase custom domain
+□ Configure custom domain in GitHub Pages
+□ Add Open Graph preview image
+□ Set up contact form (Netlify Forms)
+□ Add testimonials section
+
+MAINTENANCE
+□ Set calendar reminder: Update quarterly
+□ Plan to add new projects as completed
+□ Keep awards section current
+□ Update skills as you learn new technologies
+□ Refresh statistics (years of experience, etc.)
+
+ALTERNATIVE DEPLOYMENT (NETLIFY)
+□ Go to netlify.com
+□ Sign up with GitHub
+□ Click "Add new site"
+□ Select "Import an existing project"
+□ Connect to GitHub repository
+□ Click "Deploy site"
+□ Get custom URL or add domain
+
+TROUBLESHOOTING
+If portfolio doesn't load:
+□ Clear browser cache (Cmd+Shift+R)
+□ Wait 5 minutes for GitHub Pages build
+□ Check GitHub Actions tab for errors
+□ Verify index.html is in root directory
+□ Check GitHub Pages settings are correct
+
+If resume doesn't download:
+□ Verify PDF files are in repository
+□ Check file names match exactly
+□ Ensure files are committed to git
+□ Test download link in different browser
+
+FINAL CHECKS
+□ Portfolio loads in < 3 seconds
+□ All animations work smoothly
+□ No console errors in browser
+□ Mobile version looks professional
+□ All text is readable
+□ Color contrast is sufficient
+□ Professional appearance confirmed
+
+=====================================
+✅ DEPLOYMENT COMPLETE!
+
+Your portfolio is live at:
+https://YOUR_USERNAME.github.io/portfolio/
+
+Next steps:
+1. Share with your network
+2. Add to LinkedIn
+3. Update regularly
+4. Track engagement (if using analytics)
+
+Congratulations! 🎉
+=====================================

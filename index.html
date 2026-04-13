@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suman Kumar - Analytics & AI Leader | Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Suman Kumar - Principal-Level Analytics & AI Leader with 12+ years experience in AI automation, predictive analytics, and competitive intelligence. $72M+ business impact at eBay.">
+    <meta name="keywords" content="Analytics Leader, AI Innovation, Data Science, Machine Learning, Python, SQL, eBay, Competitive Intelligence, Business Analytics">
+    <meta name="author" content="Suman Kumar">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xsumankumar.github.io/portfolio/">
+    <meta property="og:title" content="Suman Kumar - Analytics & AI Leader">
+    <meta property="og:description" content="Principal-Level Analytics & AI Leader | 12+ years driving business transformation through AI automation and predictive analytics | $72M+ business impact">
+    <meta property="og:image" content="https://xsumankumar.github.io/portfolio/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://xsumankumar.github.io/portfolio/">
+    <meta property="twitter:title" content="Suman Kumar - Analytics & AI Leader">
+    <meta property="twitter:description" content="Principal-Level Analytics & AI Leader | 12+ years driving business transformation through AI automation and predictive analytics">
+    <meta property="twitter:image" content="https://xsumankumar.github.io/portfolio/og-image.png">
+
+    <!-- LinkedIn -->
+    <meta property="og:site_name" content="Suman Kumar Portfolio">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f9fafb;
+            --bg-white: #ffffff;
+            --border-color: #e5e7eb;
+            --success-color: #10b981;
+            --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-2: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        nav.scrolled {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Mobile Menu Toggle */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: var(--text-dark);
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: var(--gradient-2);
+            color: white;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,138.7C960,139,1056,117,1152,117.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
+            background-size: cover;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-content .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            opacity: 0.95;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .hero-content .subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 3rem;
+            margin-top: 2rem;
+            animation: fadeInUp 1s ease 0.6s both;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            animation: fadeInUp 1s ease 0.8s both;
+        }
+
+        .btn {
+            padding: 0.875rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+            position: relative;
+            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-light);
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* About Section */
+        .about {
+            background: var(--bg-white);
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: start;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        .about-text strong {
+            color: var(--primary-color);
+        }
+
+        .value-props {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .value-prop {
+            padding: 1.5rem;
+            background: var(--bg-light);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .value-prop:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .value-prop h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Skills Section */
+        .skills {
+            background: var(--bg-light);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .skill-category h3 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .skill-category h3::before {
+            content: '▸';
+            color: var(--accent-color);
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            padding: 0.5rem 0;
+            color: var(--text-dark);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .skill-list li:last-child {
+            border-bottom: none;
+        }
+
+        .skill-list li strong {
+            color: var(--primary-color);
+        }
+
+        /* Experience Section */
+        .experience {
+            background: white;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--primary-color);
+        }
+
+        .timeline-item {
+            margin-bottom: 3rem;
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.5rem;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px var(--primary-color);
+        }
+
+        .job-header {
+            margin-bottom: 1rem;
+        }
+
+        .job-title {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .job-company {
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .job-period {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .job-description {
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .achievements {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .achievement-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--success-color);
+        }
+
+        .achievement-card h4 {
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .award-badge {
+            background: var(--success-color);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .achievement-card p {
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .achievement-card ul {
+            margin-top: 0.5rem;
+            margin-left: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        /* Projects/Platforms Section */
+        .projects {
+            background: var(--bg-light);
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-header {
+            background: var(--gradient-2);
+            color: white;
+            padding: 1.5rem;
+        }
+
+        .project-header h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-tag {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            margin-right: 0.5rem;
+        }
+
+        .project-body {
+            padding: 1.5rem;
+        }
+
+        .project-body p {
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .project-impact {
+            background: var(--bg-light);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        .project-impact strong {
+            color: var(--primary-color);
+        }
+
+        /* Awards Section */
+        .awards {
+            background: white;
+        }
+
+        .awards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .award-card {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            border-top: 4px solid var(--success-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .award-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .award-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .award-card h3 {
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .award-card p {
+            color: var(--text-light);
+        }
+
+        /* Contact Section */
+        .contact {
+            background: var(--gradient-2);
+            color: white;
+            text-align: center;
+        }
+
+        .contact .section-title {
+            color: white;
+        }
+
+        .contact .section-title::after {
+            background: white;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: opacity 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            opacity: 0.8;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                padding: 2rem;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-content .tagline {
+                font-size: 1.2rem;
+            }
+
+            .hero-stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        /* Scroll Progress Bar */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--primary-color);
+            z-index: 1001;
+            transition: width 0.1s ease;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+
+        .back-to-top.visible {
+            display: flex;
+        }
+
+        .back-to-top:hover {
+            background: var(--secondary-color);
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Social Links */
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .social-link {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: white;
+            color: var(--primary-color);
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SK</a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Suman Kumar</h1>
+                <p class="tagline">Principal-Level Analytics & AI Leader</p>
+                <p class="subtitle">
+                    Driving AI-Powered Competitive Intelligence & Business Transformation |
+                    12+ years transforming business intelligence through AI automation, predictive analytics, and scalable data platforms
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">$72M+</span>
+                        <span class="stat-label">Business Impact</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Team Members Led</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Recent Spot Awards</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/xsumankumar" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <span>in</span>
+                    </a>
+                    <a href="mailto:xsumankumar.in@gmail.com" class="social-link" aria-label="Email">
+                        <span>@</span>
+                    </a>
+                    <a href="Suman_Kumar_Resume_L27_2026.pdf" download class="social-link" aria-label="Download Resume">
+                        <span>📄</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Strategic Analytics & AI Innovation Leader</p>
+
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>
+                        I'm a <strong>Strategic Analytics & AI Innovation leader</strong> with 12+ years of experience transforming
+                        business intelligence through AI automation, predictive analytics, and scalable data platforms.
+                    </p>
+                    <p>
+                        Currently leading analytics and AI initiatives at <strong>eBay</strong> with a track record of
+                        <strong>$72M+ business impact</strong>, while spearheading the adoption of generative AI,
+                        automation frameworks, and competitive intelligence platforms.
+                    </p>
+                    <p>
+                        I specialize in <strong>building AI agents, automated workflows, and self-serve analytics tools</strong>
+                        that drive executive decision-making and deliver measurable business outcomes.
+                    </p>
+                </div>
+
+                <div class="value-props fade-in">
+                    <div class="value-prop">
+                        <h3>AI Strategist & Automation Architect</h3>
+                        <p>Pioneer AI-first analytics solutions that eliminate manual work and scale insights delivery</p>
+                    </div>
+                    <div class="value-prop">
+                        <h3>Competitive Intelligence Leader</h3>
+                        <p>Built AI-powered platforms (Tariff Analytics, Market Intelligence) informing C-suite strategy</p>
+                    </div>
+                    <div class="value-prop">
+                        <h3>Team Builder & Mentor</h3>
+                        <p>Lead high-performing 6-member team with focus on AI tooling, Python, SQL, and analytics excellence</p>
+                    </div>
+                    <div class="value-prop">
+                        <h3>Business Impact Driver</h3>
+                        <p>Delivered $72M+ GMV uplift through strategic analytics and product optimization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Core Competencies</h2>
+            <p class="section-subtitle">Technical & Leadership Excellence</p>
+
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3>Strategic Leadership & AI Transformation</h3>
+                    <ul class="skill-list">
+                        <li>AI Strategy & Roadmap Development</li>
+                        <li>Automation Architecture & Scaling</li>
+                        <li>Competitive Intelligence & Market Analytics</li>
+                        <li>Data Product Development & Platform Building</li>
+                        <li>Executive Stakeholder Management</li>
+                        <li>Cross-Functional Team Leadership</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category fade-in">
+                    <h3>Advanced Analytics & AI</h3>
+                    <ul class="skill-list">
+                        <li><strong>AI/ML Applications:</strong> LLM-based automation, AI agents, Custom GPT deployment</li>
+                        <li><strong>Predictive Analytics:</strong> Multi-model forecasting, demand modeling</li>
+                        <li><strong>Automation Tools:</strong> Prompt engineering, workflow automation</li>
+                        <li><strong>Advanced Analytics:</strong> A/B testing, experimentation, causal inference, sentiment analysis</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category fade-in">
+                    <h3>Technical Expertise</h3>
+                    <ul class="skill-list">
+                        <li><strong>Languages:</strong> Python (NumPy, Pandas, Scikit-learn, PySpark), SQL, Advanced Excel</li>
+                        <li><strong>AI & Automation:</strong> ChatGPT, Claude, Custom GPT, Prompt Engineering, AI Agents</li>
+                        <li><strong>Visualization:</strong> Tableau, Power BI, Advanced Dashboarding</li>
+                        <li><strong>Data Engineering:</strong> ETL Pipelines, Data Architecture, Scalability Optimization</li>
+                        <li><strong>Web Analytics:</strong> Adobe Omniture, Digital Attribution</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category fade-in">
+                    <h3>Certifications</h3>
+                    <ul class="skill-list">
+                        <li>🎓 Google AI Essentials (Jul 2025)</li>
+                        <li>📚 IIT Patna - AI & ML Certification (Pursuing)</li>
+                        <li>🎯 B.Tech, Civil Engineering - IIT Kharagpur (2012)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">12+ Years of Analytics & AI Leadership</p>
+
+            <div class="timeline">
+                <!-- eBay Current Role -->
+                <div class="timeline-item fade-in">
+                    <div class="job-header">
+                        <h3 class="job-title">Sr. Manager – Analytics & Data Science</h3>
+                        <div class="job-company">eBay, Bangalore</div>
+                        <div class="job-period">Nov 2022 – Present</div>
+                    </div>
+                    <p class="job-description">
+                        Lead AI-driven analytics transformation for eBay Marketplaces, managing a 6-member high-impact team
+                        responsible for competitive intelligence, forecasting, automation, and strategic decision support for
+                        senior leadership across global markets.
+                    </p>
+
+                    <div class="achievements">
+                        <div class="achievement-card">
+                            <h4>
+                                US Business Performance Analytics Growth Insight Project
+                                <span class="award-badge">SPOT AWARD Q1 2026</span>
+                            </h4>
+                            <p>
+                                Led comprehensive US Business Performance Analytics initiative delivering growth insights and strategic recommendations to senior leadership.
+                            </p>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>Cortex AI – Business Performance Intelligence Platform</h4>
+                            <p>
+                                Spearheading development of Cortex AI, an AI-powered automated platform for Business Performance
+                                Reporting and deep-dive analytics, transforming how leadership consumes competitive and market intelligence.
+                            </p>
+                            <ul>
+                                <li>Architecting design flow, wireframe product design for automated data validation and narrative generation</li>
+                                <li>Designed automation frameworks reducing manual reporting time by 60%+</li>
+                                <li>Enabling real-time executive dashboards with self-serve insights delivery</li>
+                            </ul>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>
+                                Tariff Impact Analytics – AI-Powered Competitive Intelligence
+                                <span class="award-badge">SPOT AWARD Q4 2025</span>
+                            </h4>
+                            <p>
+                                Built comprehensive Tariff Impact Analytics system integrating AI dashboards, sentiment analysis,
+                                and policy impact quantification to inform executive-level strategic decisions.
+                            </p>
+                            <ul>
+                                <li>Deployed automated competitor monitoring and market event tracking</li>
+                                <li>Enabled C-suite to make data-driven policy alignment decisions during critical trade scenarios</li>
+                            </ul>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>Custom GPT & AI Assistant Deployment</h4>
+                            <p>
+                                Deployed organization-wide Custom GPT assistant to accelerate analytics productivity,
+                                SQL automation, and insights generation.
+                            </p>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>Claude-Based Deep Dive Analytics – Bullion Category</h4>
+                            <p>
+                                Leveraged Claude AI for advanced deep-dive competitive and performance analytics,
+                                demonstrating scalable approach to AI-augmented analytics across product categories.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Citi Bank Role -->
+                <div class="timeline-item fade-in">
+                    <div class="job-header">
+                        <h3 class="job-title">AVP – Strategic Analytics, Risk Management</h3>
+                        <div class="job-company">Citi Bank, Mumbai</div>
+                        <div class="job-period">Sep 2016 – Nov 2022</div>
+                    </div>
+                    <p class="job-description">
+                        Led risk analytics strategy and portfolio optimization for Citi's $50B+ US consumer lending business,
+                        collaborating with senior executives, policy, and fraud teams to enhance profitability and reduce risk exposure.
+                    </p>
+
+                    <div class="achievements">
+                        <div class="achievement-card">
+                            <h4>Credit Abuse Prevention & Fraud Analytics – $3M Annual Savings</h4>
+                            <ul>
+                                <li>Redesigned risk identification frameworks using machine learning</li>
+                                <li>Reduced fraud losses by $3M annually through improved model accuracy</li>
+                                <li>Implemented real-time monitoring dashboards for fraud pattern detection</li>
+                            </ul>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>Digital Risk Analytics & Compliance</h4>
+                            <ul>
+                                <li>Integrated Adobe Omniture digital data to authenticate customer outreach</li>
+                                <li>Built digital attribution models preventing compliance violations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earlier Roles -->
+                <div class="timeline-item fade-in">
+                    <div class="job-header">
+                        <h3 class="job-title">Product Analyst</h3>
+                        <div class="job-company">eBay (StubHub Subsidiary), Bangalore</div>
+                        <div class="job-period">Feb 2015 – Aug 2015</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="job-header">
+                        <h3 class="job-title">Analyst</h3>
+                        <div class="job-company">IBM India Pvt. Ltd., Bangalore</div>
+                        <div class="job-period">Dec 2012 – Nov 2014</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects & Platforms</h2>
+            <p class="section-subtitle">AI-Powered Analytics Solutions</p>
+
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3>PulseLab</h3>
+                        <span class="project-tag">Forecasting</span>
+                        <span class="project-tag">Python</span>
+                    </div>
+                    <div class="project-body">
+                        <p>
+                            Python-based multi-model forecasting platform supporting ARIMA, Prophet, and ML-based ensembles
+                            for global GMV projections.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 15% improvement in forecasting accuracy, 50% reduction in delivery cycle time
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3>Nexus</h3>
+                        <span class="project-tag">Self-Serve</span>
+                        <span class="project-tag">Automation</span>
+                    </div>
+                    <div class="project-body">
+                        <p>
+                            Self-serve event-impact quantification tool enabling stakeholders to run impact analysis
+                            independently without analytics team dependency.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> 40+ stakeholders empowered, 35% reduction in analytics team workload
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3>Product & Pricing Optimization</h3>
+                        <span class="project-tag">Business Impact</span>
+                        <span class="project-tag">Strategy</span>
+                    </div>
+                    <div class="project-body">
+                        <p>
+                            Strategic analytics identifying opportunities in shipping and pricing strategies through
+                            data-driven recommendations.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> +$72M annual GMV uplift
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards" id="awards">
+        <div class="container">
+            <h2 class="section-title">Recognition & Awards</h2>
+            <p class="section-subtitle">Excellence in Analytics & Innovation</p>
+
+            <div class="awards-grid">
+                <div class="award-card fade-in">
+                    <div class="award-icon">🏆</div>
+                    <h3>Spot Award Q1 2026</h3>
+                    <p>US Business Performance Analytics Growth Insight Project</p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <div class="award-icon">🏆</div>
+                    <h3>Spot Award Q4 2025</h3>
+                    <p>Tariff Domain Analytics & Competitive Intelligence</p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <div class="award-icon">🎯</div>
+                    <h3>Two-time National Finalist</h3>
+                    <p>Digital Discovery Challenge @ Citi (2018, 2019)</p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <div class="award-icon">⭐</div>
+                    <h3>Arc Award Winner</h3>
+                    <p>Citi Quarterly Excellence Award (2017)</p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <div class="award-icon">🎓</div>
+                    <h3>Top 1% Nationally</h3>
+                    <p>IIT-JEE 2008</p>
+                </div>
+
+                <div class="award-card fade-in">
+                    <div class="award-icon">📚</div>
+                    <h3>ISI Kolkata Selection</h3>
+                    <p>B.Stat Program (2008)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">
+                Let's discuss how AI and analytics can transform your business
+            </p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📍</span>
+                    <span>Bangalore, India</span>
+                </div>
+                <div class="contact-item">
+                    <span>📧</span>
+                    <a href="mailto:xsumankumar.in@gmail.com">xsumankumar.in@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <a href="tel:+917406602011">+91-7406602011</a>
+                </div>
+                <div class="contact-item">
+                    <span>💼</span>
+                    <a href="https://linkedin.com/in/xsumankumar" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="cta-buttons" style="justify-content: center; margin-top: 2rem;">
+                <a href="mailto:xsumankumar.in@gmail.com" class="btn btn-primary">Send Email</a>
+                <a href="Suman_Kumar_Resume_L27_2026.pdf" download class="btn btn-secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Suman Kumar. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; opacity: 0.7;">
+            Principal-Level Analytics & AI Leader | Driving Business Transformation
+        </p>
+    </footer>
+
+    <script>
+        // Navbar scroll effect and Back to Top button
+        const navbar = document.getElementById('navbar');
+        const scrollProgress = document.getElementById('scrollProgress');
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            // Update scroll progress bar
+            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (window.scrollY / windowHeight) * 100;
+            scrollProgress.style.width = scrolled + '%';
+
+            // Show/hide back to top button
+            if (window.scrollY > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        // Back to top functionality
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add fade-in class to elements
+        document.addEventListener('DOMContentLoaded', () => {
+            const elements = document.querySelectorAll('.skill-category, .timeline-item, .project-card, .award-card, .about-text, .value-props');
+            elements.forEach(el => {
+                el.classList.add('fade-in');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
