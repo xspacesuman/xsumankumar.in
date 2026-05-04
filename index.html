@@ -6,22 +6,22 @@
     <title>Suman Kumar - Analytics & AI Leader | Portfolio</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Suman Kumar - Principal-Level Analytics & AI Leader with 12+ years experience in AI automation, predictive analytics, and competitive intelligence. $72M+ business impact at eBay.">
-    <meta name="keywords" content="Analytics Leader, AI Innovation, Data Science, Machine Learning, Python, SQL, eBay, Competitive Intelligence, Business Analytics">
+    <meta name="description" content="Suman Kumar - Senior Data Scientist & Quantitative Analytics Leader with 12+ years experience in causal inference, econometrics, ML systems. Python, SQL expert. $75M+ business impact across eCommerce, fintech, marketplaces.">
+    <meta name="keywords" content="Data Scientist, Quantitative Analytics, Causal Inference, Econometrics, DiD, Experimentation, Python, SQL, A/B Testing, Statistical Modeling, Machine Learning, Forecasting, Panel Data">
     <meta name="author" content="Suman Kumar">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://xsumankumar.github.io/portfolio/">
-    <meta property="og:title" content="Suman Kumar - Analytics & AI Leader">
-    <meta property="og:description" content="Principal-Level Analytics & AI Leader | 12+ years driving business transformation through AI automation and predictive analytics | $72M+ business impact">
+    <meta property="og:title" content="Suman Kumar - Data Scientist & Quantitative Analytics Leader">
+    <meta property="og:description" content="Senior Data Scientist | 12+ years in causal inference, econometrics, ML systems | $75M+ business impact across eCommerce, fintech, marketplaces | Python, SQL, Statistical Modeling expert">
     <meta property="og:image" content="https://xsumankumar.github.io/portfolio/og-image.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://xsumankumar.github.io/portfolio/">
-    <meta property="twitter:title" content="Suman Kumar - Analytics & AI Leader">
-    <meta property="twitter:description" content="Principal-Level Analytics & AI Leader | 12+ years driving business transformation through AI automation and predictive analytics">
+    <meta property="twitter:title" content="Suman Kumar - Data Scientist & Quantitative Analytics Leader">
+    <meta property="twitter:description" content="Senior Data Scientist | Causal Inference, Econometrics, ML Systems | $75M+ business impact | Python, SQL expert">
     <meta property="twitter:image" content="https://xsumankumar.github.io/portfolio/og-image.png">
 
     <!-- LinkedIn -->
@@ -149,6 +149,50 @@
             padding-top: 80px;
         }
 
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .profile-photo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .profile-photo {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 8px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeInScale 1s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .profile-photo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
         .hero::before {
             content: '';
             position: absolute;
@@ -161,9 +205,7 @@
         }
 
         .hero-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
+            width: 100%;
             position: relative;
             z-index: 1;
         }
@@ -713,6 +755,16 @@
                 gap: 1rem;
             }
 
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .profile-photo {
+                width: 250px;
+                height: 250px;
+            }
+
             .about-content {
                 grid-template-columns: 1fr;
             }
@@ -833,12 +885,13 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-container">
-            <div class="hero-content">
+            <div class="hero-grid">
+                <div class="hero-content">
                 <h1>Suman Kumar</h1>
-                <p class="tagline">Principal-Level Analytics & AI Leader</p>
+                <p class="tagline">Senior Data Scientist • AI & Analytics Leader</p>
                 <p class="subtitle">
-                    Driving AI-Powered Competitive Intelligence & Business Transformation |
-                    12+ years transforming business intelligence through AI automation, predictive analytics, and scalable data platforms
+                    AI Innovation • Causal Inference • Experimentation • Statistical Modeling |
+                    12+ years driving AI transformation and applying advanced analytics to solve complex business problems across eCommerce, fintech, and marketplaces
                 </p>
                 <div class="hero-stats">
                     <div class="stat-item">
@@ -846,16 +899,16 @@
                         <span class="stat-label">Years Experience</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">$72M+</span>
+                        <span class="stat-number">$75M+</span>
                         <span class="stat-label">Business Impact</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">6</span>
-                        <span class="stat-label">Team Members Led</span>
+                        <span class="stat-number">100M+</span>
+                        <span class="stat-label">Records Processed</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">2</span>
-                        <span class="stat-label">Recent Spot Awards</span>
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Team Size</span>
                     </div>
                 </div>
                 <div class="cta-buttons">
@@ -875,6 +928,11 @@
                     </a>
                 </div>
             </div>
+
+            <div class="profile-photo-container">
+                <img src="profile-photo.jpg" alt="Suman Kumar - Data Scientist & AI Leader" class="profile-photo">
+            </div>
+        </div>
         </div>
     </section>
 
@@ -887,36 +945,40 @@
             <div class="about-content">
                 <div class="about-text fade-in">
                     <p>
-                        I'm a <strong>Strategic Analytics & AI Innovation leader</strong> with 12+ years of experience transforming
-                        business intelligence through AI automation, predictive analytics, and scalable data platforms.
+                        I'm a <strong>Data Scientist & AI Innovation leader</strong> with 12+ years of experience applying
+                        statistical modeling, causal inference, machine learning, and AI to solve complex
+                        business problems across <strong>eCommerce, fintech, risk analytics, and digital marketplaces</strong>.
                     </p>
                     <p>
-                        Currently leading analytics and AI initiatives at <strong>eBay</strong> with a track record of
-                        <strong>$72M+ business impact</strong>, while spearheading the adoption of generative AI,
-                        automation frameworks, and competitive intelligence platforms.
+                        Currently leading data science and <strong>AI transformation</strong> at <strong>eBay</strong> with a track record of
+                        <strong>$75M+ business impact</strong>. I pioneer AI-powered analytics platforms (Cortex AI, Custom GPT, LLM integration),
+                        build production ML systems (fraud detection, forecasting), and apply rigorous causal inference methods (DiD, matching)
+                        to drive measurable outcomes. Previously led risk analytics at <strong>Citi</strong>,
+                        saving <strong>$3M annually</strong> through ML-based fraud prevention.
                     </p>
                     <p>
-                        I specialize in <strong>building AI agents, automated workflows, and self-serve analytics tools</strong>
-                        that drive executive decision-making and deliver measurable business outcomes.
+                        Expert in <strong>Python, SQL, AI/ML (XGBoost, Neural Networks, LLMs), causal inference,
+                        and econometric methods</strong>. I combine cutting-edge AI innovation with statistical rigor,
+                        collaborating with Engineers, PMs, and Finance to translate insights into business strategy.
                     </p>
                 </div>
 
                 <div class="value-props fade-in">
                     <div class="value-prop">
-                        <h3>AI Strategist & Automation Architect</h3>
-                        <p>Pioneer AI-first analytics solutions that eliminate manual work and scale insights delivery</p>
+                        <h3>AI Innovation & Transformation</h3>
+                        <p>Pioneer AI-powered platforms (Cortex AI, Custom GPT, LLM integration) accelerating analytics 60%+; deploy generative AI for automation and insights at scale</p>
                     </div>
                     <div class="value-prop">
-                        <h3>Competitive Intelligence Leader</h3>
-                        <p>Built AI-powered platforms (Tariff Analytics, Market Intelligence) informing C-suite strategy</p>
+                        <h3>Causal Inference & Experimentation</h3>
+                        <p>Expert in DiD, propensity matching, uplift modeling delivering $72M impact; build self-serve experimentation platforms democratizing causal analysis</p>
                     </div>
                     <div class="value-prop">
-                        <h3>Team Builder & Mentor</h3>
-                        <p>Lead high-performing 6-member team with focus on AI tooling, Python, SQL, and analytics excellence</p>
+                        <h3>Production ML Systems</h3>
+                        <p>Ship ML platforms at scale: fraud detection ($3M savings), forecasting (100M+ records), real-time models with sub-second latency</p>
                     </div>
                     <div class="value-prop">
-                        <h3>Business Impact Driver</h3>
-                        <p>Delivered $72M+ GMV uplift through strategic analytics and product optimization</p>
+                        <h3>Leadership & Statistical Rigor</h3>
+                        <p>Lead 6-member team; IIT graduate combining AI innovation with statistical rigor (econometrics, panel data, regression) for business ROI</p>
                     </div>
                 </div>
             </div>
@@ -931,44 +993,45 @@
 
             <div class="skills-grid">
                 <div class="skill-category fade-in">
-                    <h3>Strategic Leadership & AI Transformation</h3>
+                    <h3>Quantitative Methods & Econometrics</h3>
                     <ul class="skill-list">
-                        <li>AI Strategy & Roadmap Development</li>
-                        <li>Automation Architecture & Scaling</li>
-                        <li>Competitive Intelligence & Market Analytics</li>
-                        <li>Data Product Development & Platform Building</li>
-                        <li>Executive Stakeholder Management</li>
-                        <li>Cross-Functional Team Leadership</li>
+                        <li><strong>Causal Inference:</strong> DiD, RDD, Matching, Uplift Modeling, Synthetic Control, IV Methods</li>
+                        <li><strong>Econometrics:</strong> Panel data analysis, Fixed Effects, Regression Discontinuity</li>
+                        <li><strong>Statistical Modeling:</strong> Regression (Linear, Logistic, GLM), Survival Analysis, Mixed Effects</li>
+                        <li><strong>Experimentation:</strong> A/B testing, Quasi-Experiments, Incrementality Testing, Power Analysis</li>
+                        <li><strong>Time Series:</strong> ARIMA, Prophet, GARCH, Seasonal Decomposition, ML Forecasting</li>
                     </ul>
                 </div>
 
                 <div class="skill-category fade-in">
-                    <h3>Advanced Analytics & AI</h3>
+                    <h3>AI, ML & Programming</h3>
                     <ul class="skill-list">
-                        <li><strong>AI/ML Applications:</strong> LLM-based automation, AI agents, Custom GPT deployment</li>
-                        <li><strong>Predictive Analytics:</strong> Multi-model forecasting, demand modeling</li>
-                        <li><strong>Automation Tools:</strong> Prompt engineering, workflow automation</li>
-                        <li><strong>Advanced Analytics:</strong> A/B testing, experimentation, causal inference, sentiment analysis</li>
+                        <li><strong>Generative AI:</strong> Custom GPT deployment, Claude integration, LLM orchestration, prompt engineering</li>
+                        <li><strong>Machine Learning:</strong> XGBoost, Random Forest, Neural Networks, TensorFlow, deep learning</li>
+                        <li><strong>Python:</strong> NumPy, Pandas, Scikit-learn, PySpark, Statsmodels, SciPy (Expert-level)</li>
+                        <li><strong>SQL:</strong> Expert-level optimization, window functions, CTEs, billion-record queries</li>
+                        <li><strong>Big Data & Visualization:</strong> Spark, distributed systems, Tableau, Power BI, real-time dashboards</li>
                     </ul>
                 </div>
 
                 <div class="skill-category fade-in">
-                    <h3>Technical Expertise</h3>
+                    <h3>Business & Domain Expertise</h3>
                     <ul class="skill-list">
-                        <li><strong>Languages:</strong> Python (NumPy, Pandas, Scikit-learn, PySpark), SQL, Advanced Excel</li>
-                        <li><strong>AI & Automation:</strong> ChatGPT, Claude, Custom GPT, Prompt Engineering, AI Agents</li>
-                        <li><strong>Visualization:</strong> Tableau, Power BI, Advanced Dashboarding</li>
-                        <li><strong>Data Engineering:</strong> ETL Pipelines, Data Architecture, Scalability Optimization</li>
-                        <li><strong>Web Analytics:</strong> Adobe Omniture, Digital Attribution</li>
+                        <li><strong>eCommerce:</strong> Marketplace dynamics, pricing optimization, GMV forecasting, customer analytics</li>
+                        <li><strong>Fintech/Payments:</strong> Risk analytics, fraud detection, portfolio optimization, credit modeling</li>
+                        <li><strong>Product Analytics:</strong> User behavior, funnel analysis, cohort analysis, retention modeling</li>
+                        <li><strong>Leadership:</strong> Team management (6 direct reports), cross-functional collaboration, stakeholder management</li>
+                        <li><strong>Strategy:</strong> Data-driven decision making, executive reporting, business impact quantification</li>
                     </ul>
                 </div>
 
                 <div class="skill-category fade-in">
-                    <h3>Certifications</h3>
+                    <h3>Education & Certifications</h3>
                     <ul class="skill-list">
-                        <li>🎓 Google AI Essentials (Jul 2025)</li>
-                        <li>📚 IIT Patna - AI & ML Certification (Pursuing)</li>
-                        <li>🎯 B.Tech, Civil Engineering - IIT Kharagpur (2012)</li>
+                        <li>🎓 <strong>B.Tech, IIT Kharagpur</strong> (2012) - Top 1% in IIT-JEE nationwide</li>
+                        <li>📊 <strong>Google AI Essentials</strong> Certified (Jul 2025)</li>
+                        <li>📚 <strong>IIT Patna</strong> - AI & ML Certification (Pursuing)</li>
+                        <li>🏆 Selected for <strong>B.Stat program at ISI Kolkata</strong> (2008)</li>
                     </ul>
                 </div>
             </div>
@@ -990,32 +1053,79 @@
                         <div class="job-period">Nov 2022 – Present</div>
                     </div>
                     <p class="job-description">
-                        Lead AI-driven analytics transformation for eBay Marketplaces, managing a 6-member high-impact team
-                        responsible for competitive intelligence, forecasting, automation, and strategic decision support for
-                        senior leadership across global markets.
+                        Lead strategic analytics and data science initiatives at eBay's marketplaces, managing a 6-member high-impact team
+                        responsible for forecasting, experimentation, and AI-driven decision support for senior leadership.
                     </p>
 
                     <div class="achievements">
                         <div class="achievement-card">
                             <h4>
-                                US Business Performance Analytics Growth Insight Project
-                                <span class="award-badge">SPOT AWARD Q1 2026</span>
+                                Business Impact Delivery – Causal Inference Framework
+                                <span class="award-badge">$72M GMV IMPACT</span>
                             </h4>
                             <p>
-                                Led comprehensive US Business Performance Analytics initiative delivering growth insights and strategic recommendations to senior leadership.
+                                Partnered with Product and Finance to identify opportunities in shipping and pricing.
+                                Designed and executed causal inference frameworks (DiD, matched control groups) to quantify GMV uplift for
+                                pricing and shipping experiments, resulting in <strong>+$72M annual GMV uplift</strong>.
                             </p>
+                            <ul>
+                                <li>Applied Difference-in-Differences (DiD) and propensity score matching for treatment effect estimation</li>
+                                <li>Built scalable Python pipelines enabling automated causal impact analysis for leadership decision-making</li>
+                                <li>Conducted parallel trends testing, sensitivity analysis, and heterogeneous treatment effects analysis</li>
+                            </ul>
                         </div>
 
                         <div class="achievement-card">
-                            <h4>Cortex AI – Business Performance Intelligence Platform</h4>
+                            <h4>Forecasting Transformation – PulseLab Platform</h4>
+                            <p>
+                                Spearheaded development of "PulseLab," a scalable Python-based multi-model forecasting platform,
+                                improving accuracy, transparency, and efficiency across global GMV projections.
+                            </p>
+                            <ul>
+                                <li>Integrated ARIMA, Prophet, and ML-based ensemble methods for robust forecasting</li>
+                                <li>Improved forecast accuracy by 15% and reduced delivery cycle time by 50%</li>
+                                <li>Processing 100M+ transactions across 190 markets</li>
+                            </ul>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>
+                                Cortex AI – Business Performance Intelligence Platform
+                                <span class="award-badge">AI TRANSFORMATION</span>
+                            </h4>
                             <p>
                                 Spearheading development of Cortex AI, an AI-powered automated platform for Business Performance
                                 Reporting and deep-dive analytics, transforming how leadership consumes competitive and market intelligence.
                             </p>
                             <ul>
                                 <li>Architecting design flow, wireframe product design for automated data validation and narrative generation</li>
-                                <li>Designed automation frameworks reducing manual reporting time by 60%+</li>
-                                <li>Enabling real-time executive dashboards with self-serve insights delivery</li>
+                                <li>Designed AI automation frameworks reducing manual reporting time by 60%+</li>
+                                <li>Enabling real-time executive dashboards with LLM-powered insights delivery</li>
+                            </ul>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>Custom GPT & LLM Integration for Analytics Acceleration</h4>
+                            <p>
+                                Deployed organization-wide Custom GPT assistant and Claude-based analytics tools to accelerate
+                                analytics productivity, SQL automation, and insights generation.
+                            </p>
+                            <ul>
+                                <li>Built prompt engineering frameworks and AI-powered workflows for recurring analytics tasks</li>
+                                <li>Leveraged Claude AI for deep-dive competitive analytics (Bullion category)</li>
+                                <li>40% reduction in time-to-insight through AI augmentation</li>
+                            </ul>
+                        </div>
+
+                        <div class="achievement-card">
+                            <h4>Nexus – Self-Serve Experimentation Platform</h4>
+                            <p>
+                                Built "Nexus," a self-serve causal inference platform enabling stakeholders to quantify
+                                business impacts without analytics team dependency.
+                            </p>
+                            <ul>
+                                <li>Automated propensity matching, DiD implementation, and synthetic control methods</li>
+                                <li>Enabled 40+ stakeholders to run experiments independently, reducing team workload 35%</li>
                             </ul>
                         </div>
 
@@ -1107,57 +1217,79 @@
     <!-- Projects Section -->
     <section class="projects" id="projects">
         <div class="container">
-            <h2 class="section-title">Key Projects & Platforms</h2>
-            <p class="section-subtitle">AI-Powered Analytics Solutions</p>
+            <h2 class="section-title">Key Projects & AI/ML Systems</h2>
+            <p class="section-subtitle">AI-Powered Analytics & Production ML Platforms</p>
 
             <div class="projects-grid">
                 <div class="project-card fade-in">
                     <div class="project-header">
-                        <h3>PulseLab</h3>
-                        <span class="project-tag">Forecasting</span>
+                        <h3>PulseLab Forecasting Platform</h3>
+                        <span class="project-tag">ML System</span>
                         <span class="project-tag">Python</span>
+                        <span class="project-tag">Production</span>
                     </div>
                     <div class="project-body">
                         <p>
-                            Python-based multi-model forecasting platform supporting ARIMA, Prophet, and ML-based ensembles
-                            for global GMV projections.
+                            End-to-end forecasting platform with automated model selection (ARIMA, Prophet, XGBoost, ensembles),
+                            backtesting framework, and confidence intervals. Processes 100M+ transactions daily.
                         </p>
                         <div class="project-impact">
-                            <strong>Impact:</strong> 15% improvement in forecasting accuracy, 50% reduction in delivery cycle time
+                            <strong>Tech Stack:</strong> Python (Pandas, Scikit-learn, Prophet, statsmodels), SQL<br>
+                            <strong>Impact:</strong> 15% RMSE reduction, 50% faster delivery, serving 190 markets
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card fade-in">
                     <div class="project-header">
-                        <h3>Nexus</h3>
-                        <span class="project-tag">Self-Serve</span>
-                        <span class="project-tag">Automation</span>
+                        <h3>Nexus Experimentation Platform</h3>
+                        <span class="project-tag">Causal Inference</span>
+                        <span class="project-tag">A/B Testing</span>
                     </div>
                     <div class="project-body">
                         <p>
-                            Self-serve event-impact quantification tool enabling stakeholders to run impact analysis
-                            independently without analytics team dependency.
+                            Self-serve causal inference platform with automated propensity matching, DiD implementation,
+                            parallel trends testing, and synthetic control methods. Democratizes experimentation org-wide.
                         </p>
                         <div class="project-impact">
-                            <strong>Impact:</strong> 40+ stakeholders empowered, 35% reduction in analytics team workload
+                            <strong>Tech Stack:</strong> Python (causallib, DoWhy, scipy), SQL, React<br>
+                            <strong>Impact:</strong> 40+ users, 100+ experiments/quarter, 35% team workload reduction
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card fade-in">
                     <div class="project-header">
-                        <h3>Product & Pricing Optimization</h3>
-                        <span class="project-tag">Business Impact</span>
-                        <span class="project-tag">Strategy</span>
+                        <h3>Fraud Detection ML Pipeline</h3>
+                        <span class="project-tag">Production ML</span>
+                        <span class="project-tag">Real-time</span>
                     </div>
                     <div class="project-body">
                         <p>
-                            Strategic analytics identifying opportunities in shipping and pricing strategies through
-                            data-driven recommendations.
+                            Real-time fraud detection using XGBoost and neural networks with 500+ engineered features.
+                            Sub-second latency processing transaction streams for $50B+ portfolio.
                         </p>
                         <div class="project-impact">
-                            <strong>Impact:</strong> +$72M annual GMV uplift
+                            <strong>Tech Stack:</strong> Python (XGBoost, TensorFlow), SQL, real-time pipelines<br>
+                            <strong>Impact:</strong> $3M annual savings, 84% precision (vs 72% baseline)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3>Pricing Causal Inference</h3>
+                        <span class="project-tag">DiD</span>
+                        <span class="project-tag">$72M Impact</span>
+                    </div>
+                    <div class="project-body">
+                        <p>
+                            Causal inference framework using Difference-in-Differences and propensity matching to quantify
+                            pricing/shipping experiment impacts. Multi-cell experimental design with stratified randomization.
+                        </p>
+                        <div class="project-impact">
+                            <strong>Methods:</strong> DiD, PSM, parallel trends, heterogeneous treatment effects<br>
+                            <strong>Impact:</strong> +$72M annual GMV, p < 0.01 statistical confidence
                         </div>
                     </div>
                 </div>
